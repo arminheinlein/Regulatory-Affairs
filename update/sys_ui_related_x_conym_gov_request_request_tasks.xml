@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_conym_gov_request" version="2" view="request_tasks">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Request - Request Tasks" name="x_conym_gov_request" related_list="NULL" sys_domain="global" view="6565951ddb8b32001bba70d9af96197c">66659d1ddb8b32001bba70d9af9619e1</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_conym_gov_task.u_request</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-29 12:36:39</sys_created_on>
+            <sys_id>6a659d1ddb8b32001bba70d9af9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-05-29 12:36:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Request - Request Tasks</calculated_name>
+            <filter/>
+            <name>x_conym_gov_request</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-29 12:36:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66659d1ddb8b32001bba70d9af9619e1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Request - Request Tasks</sys_name>
+            <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+            <sys_update_name>sys_ui_related_x_conym_gov_request_request_tasks</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-08-03 12:05:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Request Tasks" name="request_tasks">6565951ddb8b32001bba70d9af96197c</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

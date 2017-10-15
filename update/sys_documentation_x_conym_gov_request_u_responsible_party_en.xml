@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_responsible_party" label="Responsible Party" language="en" table="x_conym_gov_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_responsible_party</element>
+            <help/>
+            <hint>"Responsible parties" that need to perform tasks for this Request </hint>
+            <label>Responsible Party</label>
+            <language>en</language>
+            <name>x_conym_gov_request</name>
+            <plural>Responsible Parties</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-11 19:37:38</sys_created_on>
+            <sys_id>b129ceabdb6e3a006f3cfbb9af9619aa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Responsible Party</sys_name>
+            <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_gov_request_u_responsible_party_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-26 15:24:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

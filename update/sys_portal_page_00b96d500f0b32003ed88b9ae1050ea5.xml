@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2017-10-15 18:07:38">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>elizabeth.moo</sys_created_by>
+        <sys_created_on>2017-05-26 11:33:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00b96d500f0b32003ed88b9ae1050ea5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My  Self Service</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>elizabeth.moo</sys_updated_by>
+        <sys_updated_on>2017-05-26 11:33:02</sys_updated_on>
+        <title>My  Self Service</title>
+        <user display_value="Elizabeth Moo">20357eefdb676200bc1cf2f9af961918</user>
+        <view/>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>4</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>571aa5900f0b32003ed88b9ae1050e36</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">571aa5900f0b32003ed88b9ae1050e36</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>531aa5900f0b32003ed88b9ae1050e38</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>My Incidents by State</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">571aa5900f0b32003ed88b9ae1050e36</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>571aa5900f0b32003ed88b9ae1050e37</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">571aa5900f0b32003ed88b9ae1050e36</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d71aa5900f0b32003ed88b9ae1050e36</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>3b275f430a0a0b9b001a1e79ce62938b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">571aa5900f0b32003ed88b9ae1050e36</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>db1aa5900f0b32003ed88b9ae1050e37</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">571aa5900f0b32003ed88b9ae1050e36</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>df1aa5900f0b32003ed88b9ae1050e36</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>5f1aa5900f0b32003ed88b9ae1050e2e</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e2e</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>571aa5900f0b32003ed88b9ae1050e30</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>4da11b86c611229701f1d31a48c9245d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e2e</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5f1aa5900f0b32003ed88b9ae1050e2f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>Government, Stakeholder Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e2e</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d71aa5900f0b32003ed88b9ae1050e2f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderMenus</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e2e</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>df1aa5900f0b32003ed88b9ae1050e2e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>ae52391fdb16f200bc1cf2f9af9619b6</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>5f1aa5900f0b32003ed88b9ae1050e38</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e38</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>571aa5900f0b32003ed88b9ae1050e39</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>a066bb690a0a0aa300d40d0cce7ed94f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e38</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d31aa5900f0b32003ed88b9ae1050e3a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>news</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e38</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>db1aa5900f0b32003ed88b9ae1050e39</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>News</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e38</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>df1aa5900f0b32003ed88b9ae1050e38</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderJavascript</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>5f1aa5900f0b32003ed88b9ae1050e3a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e3a</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>531aa5900f0b32003ed88b9ae1050e3d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>4da11b86c611229701f1d31a48c9245d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e3a</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5f1aa5900f0b32003ed88b9ae1050e3b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e3a</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d31aa5900f0b32003ed88b9ae1050e3c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>Quick Links</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e3a</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d71aa5900f0b32003ed88b9ae1050e3b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e3a</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>db1aa5900f0b32003ed88b9ae1050e3c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">5f1aa5900f0b32003ed88b9ae1050e3a</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>df1aa5900f0b32003ed88b9ae1050e3a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>91a9e0510a0a3c7401d20d86782fc9a0</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>d71aa5900f0b32003ed88b9ae1050e2c</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e2c</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>571aa5900f0b32003ed88b9ae1050e2d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>Knowledge Search</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e2c</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5b1aa5900f0b32003ed88b9ae1050e2c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderJavascript</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e2c</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5f1aa5900f0b32003ed88b9ae1050e2d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>knowledge_search</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e2c</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d31aa5900f0b32003ed88b9ae1050e2e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>4da11b86c611229701f1d31a48c9245d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e2c</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>df1aa5900f0b32003ed88b9ae1050e2c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>a066bb690a0a0aa300d40d0cce7ed94f</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>3</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>d71aa5900f0b32003ed88b9ae1050e33</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e33</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>531aa5900f0b32003ed88b9ae1050e34</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e33</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>571aa5900f0b32003ed88b9ae1050e35</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e33</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5b1aa5900f0b32003ed88b9ae1050e33</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>c3d3e02b0a0a0b12005063c7b2fa4f93</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e33</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5f1aa5900f0b32003ed88b9ae1050e34</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>Top Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e33</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d71aa5900f0b32003ed88b9ae1050e34</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e33</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>db1aa5900f0b32003ed88b9ae1050e35</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>4da11b86c611229701f1d31a48c9245d</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>4</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>d71aa5900f0b32003ed88b9ae1050e41</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e41</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>531aa5900f0b32003ed88b9ae1050e42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e41</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5b1aa5900f0b32003ed88b9ae1050e41</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>524b9953c6112297010948bd06679722</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">d71aa5900f0b32003ed88b9ae1050e41</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d71aa5900f0b32003ed88b9ae1050e42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='' href='incident_list.do?sysparm_query=active%3Dtrue%5Ecaller_id%3Djavascript%3Ags.getUserID%28%29%5EEQ'&amp;gt;My Open Incidents&amp;lt;/a&amp;gt;</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>2</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>db1aa5900f0b32003ed88b9ae1050e3d</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">db1aa5900f0b32003ed88b9ae1050e3d</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>531aa5900f0b32003ed88b9ae1050e3f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>4da11b86c611229701f1d31a48c9245d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">db1aa5900f0b32003ed88b9ae1050e3d</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5b1aa5900f0b32003ed88b9ae1050e3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>FAQ</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">db1aa5900f0b32003ed88b9ae1050e3d</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5f1aa5900f0b32003ed88b9ae1050e3d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glideapp.knowledge.RenderKnowledge</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>topic</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">db1aa5900f0b32003ed88b9ae1050e3d</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>d31aa5900f0b32003ed88b9ae1050e3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>FAQ</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>3</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>db1aa5900f0b32003ed88b9ae1050e3f</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">db1aa5900f0b32003ed88b9ae1050e3f</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>571aa5900f0b32003ed88b9ae1050e40</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">db1aa5900f0b32003ed88b9ae1050e3f</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5f1aa5900f0b32003ed88b9ae1050e3f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>52611b75c611229701a2d3be9969daf6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">db1aa5900f0b32003ed88b9ae1050e3f</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>db1aa5900f0b32003ed88b9ae1050e40</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='' href='sc_req_item_list.do?sysparm_view=ess&amp;amp;sysparm_query=active%3Dtrue%5Erequest.requested_for%3Djavascript%3Ags.getUserID%28%29%5EEQ'&amp;gt;My Requested Items&amp;lt;/a&amp;gt;</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>2</offset>
+                <page display_value="My  Self Service">00b96d500f0b32003ed88b9ae1050ea5</page>
+                <summary/>
+                <sys_created_by>elizabeth.moo</sys_created_by>
+                <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                <sys_id>df1aa5900f0b32003ed88b9ae1050e30</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>elizabeth.moo</sys_updated_by>
+                <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">df1aa5900f0b32003ed88b9ae1050e30</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>531aa5900f0b32003ed88b9ae1050e31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>e15706fc0a0a0aa7007fc21e1ab70c2f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">df1aa5900f0b32003ed88b9ae1050e30</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>571aa5900f0b32003ed88b9ae1050e32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>Can We Help You?</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">df1aa5900f0b32003ed88b9ae1050e30</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5b1aa5900f0b32003ed88b9ae1050e31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">df1aa5900f0b32003ed88b9ae1050e30</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>5f1aa5900f0b32003ed88b9ae1050e32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 2017-05-26 07:33:10">df1aa5900f0b32003ed88b9ae1050e30</portal_section>
+                        <sys_created_by>elizabeth.moo</sys_created_by>
+                        <sys_created_on>2017-05-26 11:33:10</sys_created_on>
+                        <sys_id>df1aa5900f0b32003ed88b9ae1050e31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>elizabeth.moo</sys_updated_by>
+                        <sys_updated_on>2017-05-26 11:33:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

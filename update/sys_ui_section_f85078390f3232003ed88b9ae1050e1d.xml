@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Work Notes" section_id="f85078390f3232003ed88b9ae1050e1d" sys_domain="global" table="x_conym_gov_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_notes</element>
+            <position>0</position>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-06-01 19:29:29</sys_created_on>
+            <sys_id>9fa01612db4732006f3cfbb9af961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_conym_gov_request" sys_domain="global" view="Default view">f85078390f3232003ed88b9ae1050e1d</sys_ui_section>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-06-01 19:29:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-06-01 19:29:29</sys_created_on>
+            <sys_id>57a01612db4732006f3cfbb9af961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activity (Custom)">6abf02afdb6e3a006f3cfbb9af96190a</sys_ui_formatter>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_conym_gov_request" sys_domain="global" view="Default view">f85078390f3232003ed88b9ae1050e1d</sys_ui_section>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-06-01 19:29:29</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Work Notes</caption>
+            <header>false</header>
+            <name>x_conym_gov_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-18 12:55:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f85078390f3232003ed88b9ae1050e1d</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Work Notes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+            <sys_update_name>sys_ui_section_f85078390f3232003ed88b9ae1050e1d</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-08-03 12:05:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

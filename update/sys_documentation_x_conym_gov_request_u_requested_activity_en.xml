@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_requested_activity" label="Requested activity" language="en" table="x_conym_gov_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_requested_activity</element>
+            <help/>
+            <hint/>
+            <label>Requested activity</label>
+            <language>en</language>
+            <name>x_conym_gov_request</name>
+            <plural>Requested activities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-11 23:23:43</sys_created_on>
+            <sys_id>b1ecb2ebdbae3a006f3cfbb9af961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested activity</sys_name>
+            <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_gov_request_u_requested_activity_en</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-05-11 23:23:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

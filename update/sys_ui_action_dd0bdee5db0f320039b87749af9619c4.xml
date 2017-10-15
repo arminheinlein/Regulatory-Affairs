@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>reopen_gov_request</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition>gs.hasRole('x_conym_gov.admin,admin') &amp;&amp; current.u_active == 'closed' </condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint>You can reopen the Request. Reason for reopening must be entered into Work Notes</hint>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Reopen Request</name>
+        <onclick>reopen()</onclick>
+        <order>100</order>
+        <script><![CDATA[//Client-side 'onclick' function
+function reopen(){
+   if(g_form.getValue('u_work_notes') == ''){
+      //Remove any existing field message, set comments mandatory, and show a new field message
+      g_form.hideFieldMsg('u_work_notes');
+      g_form.setMandatory('u_work_notes', true);
+      g_form.showFieldMsg('u_work_notes','Work_notes are mandatory when reopening a Request.','error');
+      return false;  //Abort submission
+   }
+   //Call the UI Action and skip the 'onclick' function
+   gsftSubmit(null, g_form.getFormElement(), "reopen_gov_request"); 
+}
+
+//Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if(typeof window == 'undefined')
+   serverReopen();
+
+function serverReopen(){
+   	// Reopen request 
+	current.u_active='open';
+	current.update();
+	
+	// Create a post showing that request was reopened
+	var gr = new GlideRecord('x_conym_gov_post');
+	gr.u_contributer = gs.getUserID();
+	gr.u_post_type = 'system';
+	gr.u_request = current.sys_id;
+	gr.u_text ="Request was reopend";
+	gr.insert();
+
+	gs.addInfoMessage('Reopened request ' +current.number);
+	action.setRedirectURL(current);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-05-30 12:19:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd0bdee5db0f320039b87749af9619c4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Reopen Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+        <sys_update_name>sys_ui_action_dd0bdee5db0f320039b87749af9619c4</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-05-30 15:51:20</sys_updated_on>
+        <table>x_conym_gov_request</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

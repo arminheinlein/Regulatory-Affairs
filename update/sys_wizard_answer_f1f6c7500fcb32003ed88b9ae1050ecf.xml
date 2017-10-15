@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Signature Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Signature Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">3237af45dd2003003399d83d70be02ce</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-26 18:18:50</sys_created_on>
+        <sys_id>f1f6c7500fcb32003ed88b9ae1050ecf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Signature Task</sys_name>
+        <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+        <sys_update_name>sys_wizard_answer_f1f6c7500fcb32003ed88b9ae1050ecf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-26 18:18:50</sys_updated_on>
+        <table/>
+        <target_url>u_sig_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

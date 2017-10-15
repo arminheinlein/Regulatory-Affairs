@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>activity.xml</formatter>
+        <name>Activity (Custom)</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-05-11 20:07:04</sys_created_on>
+        <sys_id>6abf02afdb6e3a006f3cfbb9af96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activity (Custom)</sys_name>
+        <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+        <sys_update_name>sys_ui_formatter_6abf02afdb6e3a006f3cfbb9af96190a</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-05-11 20:07:04</sys_updated_on>
+        <table>x_conym_gov_request</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

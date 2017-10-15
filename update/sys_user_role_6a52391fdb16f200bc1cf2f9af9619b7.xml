@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_conym_gov.user</name>
+        <suffix>user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-04-28 13:03:50</sys_created_on>
+        <sys_id>6a52391fdb16f200bc1cf2f9af9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_conym_gov.user</sys_name>
+        <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+        <sys_update_name>sys_user_role_6a52391fdb16f200bc1cf2f9af9619b7</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-04-28 13:03:50</sys_updated_on>
+    </sys_user_role>
+</record_update>

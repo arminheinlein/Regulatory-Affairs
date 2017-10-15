@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_type" table="x_conym_gov_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Informational</label>
+            <language>en</language>
+            <name>x_conym_gov_request</name>
+            <sequence/>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-11 19:27:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23d6c2abdb6e3a006f3cfbb9af9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-05-11 19:27:53</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Action required</label>
+            <language>en</language>
+            <name>x_conym_gov_request</name>
+            <sequence/>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-11 19:28:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14f68e6bdb6e3a006f3cfbb9af9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-05-11 19:28:09</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <name>x_conym_gov_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-11 19:27:53</sys_created_on>
+            <sys_id>f6ab63990f7103003ed88b9ae1050ed5</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>u_type</sys_name>
+            <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+            <sys_update_name>sys_choice_x_conym_gov_request_u_type</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-08-03 12:05:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

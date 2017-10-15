@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Request" max_length="40" name="x_conym_gov_request" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" hint="Main reference for this Request" label="Request Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" default="open" label="Status" max_length="40" name="u_active" read_only="true" type="choice">
+            <choice>
+                <element label="Open" sequence="0" value="open"/>
+                <element label="Closed" sequence="1" value="closed"/>
+            </choice>
+        </element>
+        <element hint="People that you want to be aware of the Request" label="CC Party" max_length="4000" name="u_cc_party" reference="sys_user" type="glide_list"/>
+        <element label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>
+        <element choice="3" default="no" hint="Send the initial email to all &quot;Responsible parties&quot; informing them of Request" label="Send email" max_length="40" name="u_email_ready_to_send" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Email sent" max_length="40" name="u_email_sent" read_only="true" type="glide_date_time"/>
+        <element hint="Select when &quot;Notice&quot; was received" label="Notice received" mandatory="true" max_length="40" name="u_notice_received" type="glide_date"/>
+        <element hint="Number of tasks not marked completed" label="Outstanding confirmations" max_length="4" name="u_outstanding_confirmations" read_only="true" type="integer"/>
+        <element choice="1" label="Reference" mandatory="true" max_length="40" name="u_reference" type="choice">
+            <choice>
+                <element label="Coalition" sequence="0" value="Coalition"/>
+                <element label="NYSDFS" sequence="1" value="NYCDFS"/>
+                <element label="NYSDOH" sequence="2" value="NYCDOH"/>
+                <element label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Regulatory Affairs contact" mandatory="true" max_length="32" name="u_regulatory_affairs_contact" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element hint="Schedule your email reminder for this request" label="Reminder" max_length="40" name="u_reminder" type="glide_date_time"/>
+        <element choice="1" label="Requested activity" mandatory="true" max_length="40" name="u_requested_activity" type="choice">
+            <choice>
+                <element label="Prepare Report" sequence="0" value="prepare_report"/>
+                <element label="Review" sequence="1" value="review"/>
+                <element label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element hint="&quot;Responsible parties&quot; that need to perform tasks for this Request " label="Responsible Party" mandatory="true" max_length="4000" name="u_responsible_party" reference="sys_user" type="glide_list"/>
+        <element choice="3" default="1" label="Stage" max_length="40" name="u_stage" read_only="true" type="choice">
+            <choice>
+                <element label="Active" value="1"/>
+                <element label="Closed" value="3"/>
+                <element label="New" value="0"/>
+                <element label="Ready to close" value="2"/>
+            </choice>
+        </element>
+        <element hint="Subject" label="Subject" mandatory="true" max_length="128" name="u_subject" type="string"/>
+        <element label="Submitted" max_length="40" name="u_submitted" read_only="true" type="glide_date"/>
+        <element label="Submitted by" max_length="40" name="u_submitted_by" read_only="true" type="string"/>
+        <element hint="Summary " label="Summary" mandatory="true" max_length="4000" name="u_summary" type="string"/>
+        <element choice="1" hint="What type of is required of the &quot;Responsible party&quot;" label="Informational / action required" mandatory="true" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element label="Action required" value="1"/>
+                <element label="Informational" value="0"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="1000" name="u_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_regulatory_affairs_contact"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Log" max_length="40" name="x_conym_gov_log" type="collection">
+        <element label="Request" max_length="32" name="u_request" read_only="true" reference="x_conym_gov_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Text" max_length="40" name="u_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="system" label="Type" max_length="40" name="u_type" read_only="true" type="string">
+            <choice>
+                <element label="email" sequence="0" value="email"/>
+                <element label="system" sequence="1" value="system"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_request"/>
+        </index>
+    </element>
+</database>

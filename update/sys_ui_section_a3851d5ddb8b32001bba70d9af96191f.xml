@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Request Tasks" section_id="a3851d5ddb8b32001bba70d9af96191f" sys_domain="global" table="x_conym_gov_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_conym_gov_request.x_conym_gov_task.u_request</element>
+            <position>0</position>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-12 15:25:21</sys_created_on>
+            <sys_id>00099a3bdb2ef600bc1cf2f9af9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Tasks" display_value="Request Tasks" name="x_conym_gov_request" sys_domain="global" view="Default view">a3851d5ddb8b32001bba70d9af96191f</sys_ui_section>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-05-12 15:25:21</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Request Tasks</caption>
+            <header>false</header>
+            <name>x_conym_gov_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-05-12 15:25:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3851d5ddb8b32001bba70d9af96191f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Request Tasks</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+            <sys_update_name>sys_ui_section_a3851d5ddb8b32001bba70d9af96191f</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-08-03 12:05:15</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

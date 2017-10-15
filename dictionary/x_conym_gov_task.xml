@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Request Tasks" max_length="40" name="x_conym_gov_task" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" default="open" label="Status" max_length="40" name="u_active" read_only="true" type="choice">
+            <choice>
+                <element label="Completed" value="completed"/>
+                <element label="Open" sequence="0" value="open"/>
+            </choice>
+        </element>
+        <element label="Completed" max_length="40" name="u_completed" read_only="true" type="glide_date"/>
+        <element label="Completed by" max_length="32" name="u_completed_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Post" max_length="32" name="u_post" reference="x_conym_gov_post" type="reference"/>
+        <element label="Request" max_length="32" name="u_request" reference="x_conym_gov_request" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Responsible Party" max_length="32" name="u_responsible_party" reference="sys_user" type="reference"/>
+        <element label="Work Notes" max_length="4000" name="u_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_request"/>
+        </index>
+        <index name="index2">
+            <element name="u_responsible_party"/>
+        </index>
+        <index name="index3">
+            <element name="u_completed_by"/>
+        </index>
+        <index name="index4">
+            <element name="u_post"/>
+        </index>
+    </element>
+</database>

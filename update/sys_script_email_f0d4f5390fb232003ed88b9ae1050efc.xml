@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>gov_update_request</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	if(current.u_email_ready_to_send == 'yes'){
+		current.u_email_ready_to_send = 'no';
+		if(current.u_stage == '0') {
+			current.u_stage = '1';
+		}
+		current.update();
+		
+		var gr = new GlideRecord('x_conym_gov_post');
+		gr.u_contributer = current.u_regulatory_affairs_contact;
+		gr.u_post_type = 'system';
+		gr.u_request = current.sys_id;
+		gr.u_text ="Initial request email sent";
+		gr.insert();
+	}
+		
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-18 17:59:25</sys_created_on>
+        <sys_id>f0d4f5390fb232003ed88b9ae1050efc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>gov_update_request</sys_name>
+        <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+        <sys_update_name>sys_script_email_f0d4f5390fb232003ed88b9ae1050efc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-26 15:08:04</sys_updated_on>
+    </sys_script_email>
+</record_update>

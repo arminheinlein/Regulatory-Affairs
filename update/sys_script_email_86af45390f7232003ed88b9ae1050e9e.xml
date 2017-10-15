@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>gov_request_body</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	// Check what type of request and print the appropriate text for information or activity requested
+	if(current.u_type == '0'){
+		template.print('<p><font size="2" color="#000000" face="helvetica">');
+		template.print(gs.getMessage('Please review the attached information and confirm the information is ')); 
+		template.print(gs.getMessage('received and read. You can view all the details of the request by '));
+		template.print(gs.getMessage('following the links below.'));
+		template.print('</font></p>');
+	}
+	else {
+		template.print('<p><font size="2" color="#000000" face="helvetica">');
+		template.print(gs.getMessage('Please see the attached memo and complete the appropriate '));
+		template.print(gs.getMessage('action required. You can view all the details of the '));
+		template.print(gs.getMessage('request by following the links below.'));
+		template.print('</font></p>');
+	}
+	
+	// Format the box for "Take me to the Information" hyperlink
+	var backgroundColor = 'background-color: #278efc;';
+	var border = 'border: 1px solid #0368d4;';
+	var color = 'color: #ffffff;';
+	var fontSize = 'font-size: 14px;';
+	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+	var textDecoration = 'text-decoration: none; border-radius: 3px;';
+	var webKitBorder = '-webkit-border-radius: 3px;';
+	var mozBorder = '-moz-border-radius: 3px;';
+	var display = 'display: inline-block;';
+	var padding = 'padding: 5px;';
+
+	// Prepare the URL for "Take me to the Information"
+	var instance = gs.getProperty("instance_name");
+	var URL1 = 'https://' +instance;
+	var URL2 = '.service-now.com/';
+	var URL = URL1 +URL2;
+	var link = current.getLink();
+
+	// Output the information 
+	template.print('<a href="' + URL + link + '"');
+	template.print('style="' + backgroundColor + border + color + fontSize + fontFamily 
+				   + textDecoration + webKitBorder + mozBorder + display + padding);
+	template.print('">');
+	template.print(gs.getMessage('Take me to the Information'));
+	template.print('</a>');
+	template.print('</font>');
+	template.print('<br><br>');
+	template.print('<p><font size="2" color="#000000" face="helvetica">');
+
+	//  Add attachments	to the email 
+	var gr = new GlideRecord('sys_attachment');
+    gr.addQuery('table_sys_id',current.sys_id);
+    gr.query();
+    while (gr.next()) {
+        template.print('Attachment: <a href="' +URL +'sys_attachment.do?sys_id='+ gr.sys_id + '">' 
+					   + gr.file_name + '</a><br>');
+    } 
+
+	if(current.u_type == '1'){
+		template.print('<br>');
+		template.print('<p><font size="2" color="#000000" face="helvetica">');
+		template.print(gs.getMessage('If there are any additional questions/comments for Regulatory '));
+		template.print(gs.getMessage('Affairs please use the Work Notes field in the link for the request.'));
+		template.print('</font></p>');
+		
+		template.print('<p><font size="2" color="#000000" face="helvetica"><b>');
+		template.print(gs.getMessage('**PLEASE BE AWARE OF THE DEADLINE '));
+		template.print(gs.getMessage('of ${u_due_date}**'));
+		template.print('</font></p></b>');
+	}
+	template.print('<br>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-18 15:16:31</sys_created_on>
+        <sys_id>86af45390f7232003ed88b9ae1050e9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gov_request_body</sys_name>
+        <sys_package display_value="Regulatory Affairs " source="x_conym_gov">16527d5bdb16f200bc1cf2f9af961949</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Affairs ">16527d5bdb16f200bc1cf2f9af961949</sys_scope>
+        <sys_update_name>sys_script_email_86af45390f7232003ed88b9ae1050e9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-18 15:16:31</sys_updated_on>
+    </sys_script_email>
+</record_update>
